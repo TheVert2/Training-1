@@ -1,0 +1,209 @@
+.list {
+  list-style: none;
+}
+
+.link {
+  text-decoration: none;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  line-height: 24px;
+}
+
+/* ====================== COMPONENTS ========================= */
+.logo-text {
+  font-family: 'Raleway';
+  font-style: normal;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 24px;
+  /* identical to box height, or 133% */
+
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+
+  /* IRIS */
+
+  color: #4d5ae5;
+}
+.logo-text2 {
+  font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 24px;
+    /* identical to box height, or 133% */
+  
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+  
+    /* NAVY BLUE */
+  
+    color: #2E2F42;
+}
+.button-text {
+  /* Button Text */
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  /* identical to box height, or 150% */
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.04em;
+
+  /* IRIS */
+
+  color: #4D5AE5;
+}
+
+.button-text,
+.button-text {
+  background-color:#404BBF;;
+  color: #ffffff;
+}
+.header2 {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 40px;
+  /* identical to box height, or 111% */
+
+  text-align: center;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+
+  /* NAVY BLUE */
+
+  color: #2e2f42;
+}
+.header3 {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24px;
+  /* identical to box height, or 120% */
+
+  text-align: center;
+  letter-spacing: 0.02em;
+
+  /* NAVY BLUE */
+
+  color: #2E2F42;
+}
+.header3-body {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  /* or 150% */
+
+  letter-spacing: 0.02em;
+
+  /* SLATE */
+
+  color: #434455;
+}
+
+/* ====================== /COMPONENTS ========================= */
+
+/* ====================== HEADER ========================= */
+
+.menu-link {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  /* identical to box height, or 150% */
+
+  letter-spacing: 0.02em;
+
+  /* NAVY BLUE */
+
+  color: #2e2f42;
+}
+.contact-email {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  /* identical to box height, or 150% */
+
+  letter-spacing: 0.02em;
+
+  /* SLATE */
+
+  color: #434455;
+}
+.contact-phone-number {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  /* identical to box height, or 150% */
+
+  letter-spacing: 0.02em;
+
+  /* SLATE */
+
+  color: #434455;
+}
+/* ====================== /HEADER ========================= */
+
+/* ====================== SECTION №1 HERO ========================= */
+.main-title {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 56px;
+  line-height: 60px;
+  /* or 107% */
+
+  text-align: center;
+  letter-spacing: 0.02em;
+
+  /* color: #FFFFFF; */
+}
+
+/* ====================== /SECTION №1 HERO ========================= */
+
+/* ====================== SECTION №2 QUALITIES (table) ==============*/
+
+
+
+
+/* ====================== /SECTION №2 QUALITIES (table) ==============*/
+
+/* ====================== SECTION №3 OUR PRODUCTS ==============*/
+
+/* ====================== /SECTION №3 OUR PRODUCTS ==============*/
+
+/* ====================== SECTION №4 EMPLOYEES ==============*/
+
+/* ====================== /SECTION №4 EMPLOYEES ==============*/
+
+/* ====================== FOOTER ========================= */
+.footer-text {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  /* or 150% */
+
+  letter-spacing: 0.02em;
+
+  /* CORNFLOWER */
+
+  color: #e7e9fc;
+}
+/* ====================== /FOOTER ========================= */
