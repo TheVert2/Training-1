@@ -11,43 +11,51 @@
       href="https://fonts.googleapis.com/css2?family=Raleway:wght@800&family=Roboto:wght@400;500;700&display=swap"
       rel="stylesheet"
     />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/modern-normalize@1.1.0/modern-normalize.min.css"
+    />
     <link rel="stylesheet" href="./css/styles.css" />
   </head>
   <body>
     <!--HEADER-->
     <header class="page-header">
-      <nav class="page-nav">
-        <a class="logo-text link" href="./index.html">Web<em class="logo-text2">Studio</em></a>
-        <ul class="menu-list">
-          <li class="menu-item list">
-            <a class="menu-link link" href="">Studio</a>
-          </li>
-          <li class="menu-item list">
-            <a class="menu-link link" href="">Portfolio</a>
-          </li>
-          <li class="menu-item list">
-            <a class="menu-link link" href="">Contacts</a>
-          </li>
-        </ul>
-        <ul class="menu-contacts">
-          <li class="menu-contacts-item list">
-            <a class="contact-email link" href="mailto:info@devstudio.com">info@devstudio.com</a>
-          </li>
-          <li class="menu-contacts-item list">
-            <a class="contact-phone-number link" href="tel:+110001111111">+11 (000) 111-11-11</a>
-          </li>
-        </ul>
-      </nav>
+      <div class="container">
+        <nav class="page-nav page-header-container">
+          <a class="logo-text link" href="./index.html">Web<em class="logo-text2">Studio</em></a>
+          <ul class="menu-list">
+            <li class="menu-item list">
+              <a class="menu-link link" href="">Studio</a>
+            </li>
+            <li class="menu-item list">
+              <a class="menu-link link" href="">Portfolio</a>
+            </li>
+            <li class="menu-item list">
+              <a class="menu-link link" href="">Contacts</a>
+            </li>
+          </ul>
+          <ul class="menu-contacts">
+            <li class="menu-contacts-item list">
+              <a class="contact-email link" href="mailto:info@devstudio.com">info@devstudio.com</a>
+            </li>
+            <li class="menu-contacts-item list">
+              <a class="contact-phone-number link" href="tel:+110001111111">+11 (000) 111-11-11</a>
+            </li>
+          </ul>
+        </nav>
+      </div>
     </header>
     <!--MAIN-->
     <main>
       <!--SECTION №1 HERO-->
       <section class="hero">
-        <h1 class="main-title">Effective Solutions for Your Business</h1>
-        <button class="button-text" type="button">Order Service</button>
+        <div class="hero-container container">
+          <h1 class="main-title">Effective Solutions for Your Business</h1>
+          <button class="button-text" type="button">Order Service</button>
+        </div>
       </section>
       <!--SECTION №2 QUALITIES (table)-->
-      <section class="qualities">
+      <section class="qualities container">
         <h2 class="header2">Our qualities</h2>
         <table class="qualities-table">
           <tr class="header3">
@@ -57,23 +65,19 @@
             <td>Technologies</td>
           </tr>
           <tr class="header3-body">
-            <td
-            >
+            <td>
               Our goal is to identify the business problem to walk away with the perfect and
               creative solution.
             </td>
-            <td
-            >
+            <td>
               Bring the key message to the brand's audience for the best price within the shortest
               possible time.
             </td>
-            <td
-            >
+            <td>
               Research and confirm brands that present the strongest digital growth opportunities
               and minimize risk.
             </td>
-            <td
-            >
+            <td>
               Design practice focused on digital experiences. We bring forth a deep passion for
               problem-solving.
             </td>
@@ -81,14 +85,14 @@
         </table>
       </section>
       <!--SECTION №3 OUR PRODUCTS-->
-      <section class="our-products">
+      <section class="our-products container">
         <h2 class="header2">What are we doing</h2>
         <ul class="our-products-list">
           <li class="our-products-img list">
             <img src="./images/section3/img1.jpg" alt="Apple iMac" width="360" height="300" />
           </li>
           <li class="our-products-img list">
-            <img src="./images/section3/img2.jpg" alt="Foure Iphone" width="360" height="300" />
+            <img src="./images/section3/img2.jpg" alt="Apple iMac" width="360" height="300" />
           </li>
           <li class="our-products-img list">
             <img
@@ -101,7 +105,7 @@
         </ul>
       </section>
       <!--SECTION №4 EMPLOYEES-->
-      <section class="employees">
+      <section class="employees container">
         <h2 class="header2">Our Team</h2>
         <ul class="employees-list">
           <li class="emploeyees-list-item list">

@@ -1,3 +1,24 @@
+h1,
+h2,
+h3,
+h4,
+p {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+ul,
+ol {
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-left: 0;
+}
+img {
+  display: block;
+}
+button {
+  cursor: pointer;
+}
+
 .list {
   list-style: none;
 }
@@ -9,6 +30,13 @@
 body {
   font-family: 'Roboto', sans-serif;
   line-height: 24px;
+}
+.container {
+  width: 1158px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 15px;
+  padding-right: 15px;
 }
 
 /* ====================== COMPONENTS ========================= */
@@ -31,43 +59,22 @@ body {
 }
 .logo-text2 {
   font-family: 'Raleway';
-    font-style: normal;
-    font-weight: 800;
-    font-size: 18px;
-    line-height: 24px;
-    /* identical to box height, or 133% */
-  
-    display: flex;
-    align-items: center;
-    letter-spacing: 0.03em;
-    text-transform: uppercase;
-  
-    /* NAVY BLUE */
-  
-    color: #2E2F42;
-}
-.button-text {
-  /* Button Text */
   font-style: normal;
-  font-weight: 500;
-  font-size: 16px;
+  font-weight: 800;
+  font-size: 18px;
   line-height: 24px;
-  /* identical to box height, or 150% */
+  /* identical to box height, or 133% */
+
   display: flex;
   align-items: center;
-  text-align: center;
-  letter-spacing: 0.04em;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
 
-  /* IRIS */
+  /* NAVY BLUE */
 
-  color: #4D5AE5;
+  color: #2e2f42;
 }
 
-.button-text,
-.button-text {
-  background-color:#404BBF;;
-  color: #ffffff;
-}
 .header2 {
   font-style: normal;
   font-weight: 700;
@@ -95,7 +102,7 @@ body {
 
   /* NAVY BLUE */
 
-  color: #2E2F42;
+  color: #2e2f42;
 }
 .header3-body {
   font-style: normal;
@@ -114,6 +121,35 @@ body {
 /* ====================== /COMPONENTS ========================= */
 
 /* ====================== HEADER ========================= */
+.page-header-container {
+  display: flex;
+  align-items: center;
+  padding-top: 24px;
+  padding-bottom: 24px;
+}
+
+.logo-text {
+  margin-right: 76px;
+}
+
+.menu-item:not(:last-child) {
+  padding-right: 40px;
+}
+
+.menu-contacts-item:not(:last-child) {
+  padding-right: 40px;
+}
+
+.menu-list {
+  display: flex;
+  align-items: center;
+}
+
+.menu-contacts {
+  display: flex;
+  align-items: center;
+  margin-left: auto;
+}
 
 .menu-link {
   font-family: 'Roboto';
@@ -160,26 +196,43 @@ body {
 /* ====================== /HEADER ========================= */
 
 /* ====================== SECTION №1 HERO ========================= */
+.hero {
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+  width: 1440px;
+  background-color: #434455;
+  padding-top: 188px;
+  padding-bottom: 188px;
+}
+
+.hero-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
 .main-title {
+  width: 494px;
+  height: 120px;
+  margin-left: auto;
+  margin-right: auto;
+
   font-family: 'Roboto';
   font-style: normal;
-  font-weight: 700;
+  font-weight: 500;
   font-size: 56px;
   line-height: 60px;
-  /* or 107% */
 
   text-align: center;
   letter-spacing: 0.02em;
 
-  /* color: #FFFFFF; */
+  color: #ffffff;
 }
 
 /* ====================== /SECTION №1 HERO ========================= */
 
 /* ====================== SECTION №2 QUALITIES (table) ==============*/
-
-
-
 
 /* ====================== /SECTION №2 QUALITIES (table) ==============*/
 
